@@ -1,0 +1,19 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "axios": "^1.5.1",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  }
+}
